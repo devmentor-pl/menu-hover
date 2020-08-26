@@ -5,6 +5,10 @@
     font-size: 20px;
 }
 
+body:hover {
+    background: green;
+}
+
 ul {
     list-style: none;
 }
