@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.nav__menu {
+    display: flex;
+}
+
+.nav__item {
+    padding: 5px 10px;
+    margin: 0 5px;
+    position: relative;
+}
+
+.nav__item:hover > .submenu {
+    display: block;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: red;
+}
+
+.submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+.submenu__item {
+    white-space: nowrap;
+    padding: 5px 10px;
+}
+
+.submenu__link {
+    color: green;
+    text-decoration: none;
+}
